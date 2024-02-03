@@ -18,6 +18,8 @@ CREATE TABLE customers (
     credit_limit numeric
 );
 
+--INSERÇÃO DOS DADOS
+
 INSERT INTO customers (id, name, street, city, state, credit_limit)
 VALUES
 (1, 'Pedro Augusto da Rocha', 'Rua Pedro Carlos Hoffman', 'Porto Alegre', 'RS', 700.00),

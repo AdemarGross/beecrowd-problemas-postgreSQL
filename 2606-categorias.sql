@@ -20,7 +20,7 @@ price numeric,
 id_categories numeric REFERENCES categories(id)
 );
 
---Inserção dos dados
+--INSERÇÃO DOS DADOS
 
 INSERT INTO categories (id, name)
 VALUES
